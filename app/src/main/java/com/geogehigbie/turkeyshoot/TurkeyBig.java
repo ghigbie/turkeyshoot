@@ -54,6 +54,7 @@ public class TurkeyBig  {
 
     }
 
+
     public void fromRight(){}
 
     public void gobble(){
