@@ -4,7 +4,11 @@
     android:layout_height="match_parent"
     tools:context="layout.FragmentOneBase">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/turkey_body"
+        android:src="@drawable/turkey_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -44,7 +48,7 @@
             android:layout_height="225dp"
             android:background="@drawable/grass_texture"
             android:layout_above="@+id/wood_base"
-            android:weightSum="5">
+            android:weightSum="4">
 
 
             <FrameLayout
@@ -52,6 +56,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/turkey_big_color"
+                    />
             </FrameLayout>
 
             <FrameLayout
@@ -59,6 +68,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/turkey_big_color"
+                    />
             </FrameLayout>
 
             <FrameLayout
@@ -66,6 +80,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/turkey_big_color"
+                    />
             </FrameLayout>
 
             <FrameLayout
@@ -73,14 +92,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/turkey_big_color"
+                    />
             </FrameLayout>
 
-            <FrameLayout
-                android:id="@+id/turkey_container5"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1">
-            </FrameLayout>
+
+
 
         </LinearLayout>
 
@@ -97,6 +117,14 @@
 
 
 
+
+
     </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/big_turkey_body"
+        android:src="@drawable/turkey_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

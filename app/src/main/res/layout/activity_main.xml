@@ -4,14 +4,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="com.geogehigbie.turkeyshoot.MainActivity">
 
-    <ImageView
-        android:id="@+id/turkey_body"
-        android:src="@drawable/turkey_body"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 
     <FrameLayout
         android:id="@+id/fragment_container"
